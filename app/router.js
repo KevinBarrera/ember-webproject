@@ -6,6 +6,11 @@ const Router = EmberRouter.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {});
+Router.map(function() {
+  this.route('app', function() {
+    this.route('create-juego');
+    this.route('juego');
+  });
+});
 
 export default Router;

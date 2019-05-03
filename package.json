@@ -18,9 +18,10 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.2",
+    "@ember/jquery": "^0.6.0",
     "@ember/optional-features": "^0.7.0",
     "@glimmer/component": "^0.14.0-alpha.3",
+    "babel-eslint": "^8.0.2",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.2.20",
     "ember-cli": "github:ember-cli/ember-cli#1b600aad5ab1ba61bc5edf7e65a5f85d543c70ce",
