@@ -1,0 +1,22 @@
+<table class="table col-sm-7">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Código</th>
+      <th scope="col">Status</th>
+      <th scope="col">Jugadores</th>
+      <th scope="col">Join</th>
+      <th scope="col">Jugar</th>
+    </tr>
+  </thead>
+  <tbody>
+        {{#each @games as |game|}}
+            <tr>
+                <th scope="row">{{game.code}}</th>
+                <td>{{game.statusLetra}}</td>
+                <td>{{game.total_users}}</td>
+                <td><button type="button" class="btn btn-outline-light">Join</button></td>
+                <td><button type="button" class="btn btn-outline-light">@ jugar!</button></td>
+            </tr>
+        {{/each}}
+  </tbody>
+</table>

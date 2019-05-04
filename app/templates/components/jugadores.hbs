@@ -1,0 +1,7 @@
+<div class="col-sm-3">
+    <select>
+        {{#each @users as |user|}}
+            <option value={{user.id}}>{{user.username}}</option>
+        {{/each}}
+    </select>
+</div>
